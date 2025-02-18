@@ -56,11 +56,3 @@ This project implements a **2-Approximation Algorithm for the Traveling Salesman
 - Uses **Prim’s Algorithm** to approximate the optimal solution.
 - Outputs the computed path and visualizes it.
 
-
-## Usage
-### Run Command
-```sh
-java -jar tsp-solver.jar [-v] [n=<num_of_cities>] [s=<random_seed>] [<input_file>]
-
-
-
