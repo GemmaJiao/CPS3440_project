@@ -13,7 +13,7 @@ This project is a **CPS3440 programming assignment**, implementing a **2-approxi
 ## Environment
 - **Programming Language**: Java
 - **Development Environment**: JDK 17+ (recommended)
-- **required package: download javax.swing.*
+- **required package**: download javax.swing.*
 - **Dependencies**: None
 
 # Code Explanation
@@ -51,7 +51,8 @@ This project implements a **2-Approximation Algorithm for the Traveling Salesman
 - The **`visualizePath`** function in `project.java` uses **Java Swing** to display:
   - Cities as **points on a grid**.
   - The **TSP path** connecting the cities.
--eg.![2C$3{ZB B5INIY$QCKG`G4R](https://github.com/user-attachments/assets/b6e7956e-7fe2-499b-9139-bda0a63e49ec)
+- **eg.**
+    ![2C$3{ZB B5INIY$QCKG`G4R](https://github.com/user-attachments/assets/b6e7956e-7fe2-499b-9139-bda0a63e49ec)
 
 ## Summary
 - The program reads city data, selects a subset, computes an MST, and derives a TSP path.
