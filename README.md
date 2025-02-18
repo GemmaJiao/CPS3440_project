@@ -15,12 +15,7 @@ This project is a **CPS3440 programming assignment**, implementing a **2-approxi
 - **Development Environment**: JDK 17+ (recommended)
 - **Dependencies**: None
 
-## Usage
-### Run Command
-```sh
-java -jar tsp-solver.jar [-v] [n=<num_of_cities>] [s=<random_seed>] [<input_file>]
-
-## Code Explanation
+# Code Explanation
 
 This project implements a **2-Approximation Algorithm for the Traveling Salesman Problem (TSP)** using **Prim's Algorithm** to compute a **Minimum Spanning Tree (MST)** and then constructing an approximate TSP solution. Below is a breakdown of the core files:
 
@@ -60,5 +55,12 @@ This project implements a **2-Approximation Algorithm for the Traveling Salesman
 - The program reads city data, selects a subset, computes an MST, and derives a TSP path.
 - Uses **Prim’s Algorithm** to approximate the optimal solution.
 - Outputs the computed path and visualizes it.
+
+
+## Usage
+### Run Command
+```sh
+java -jar tsp-solver.jar [-v] [n=<num_of_cities>] [s=<random_seed>] [<input_file>]
+
 
 
